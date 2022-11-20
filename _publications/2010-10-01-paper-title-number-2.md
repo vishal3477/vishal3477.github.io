@@ -1,15 +1,13 @@
 ---
-title: "Paper Title Number 2"
+title:"Proactive Image Manipulation Detection"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/2009-10-01-paper-title-number-2
+date: 2022-05-01
+venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition'
+paperurl: 'http://vishal3477.github.io/files/paper2.pdf'
+citation: 'Asnani, V., Yin, X., Hassner, T., & Liu, X. (2021). Reverse engineering of generative models: Inferring model hyperparameters from generated images. arXiv preprint arXiv:2106.07873.'
 ---
-This paper is about the number 2. The number 3 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
+[Download paper here](http://vishal3477.github.io/files/paper2.pdf)
 
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
+Recommended citation: Asnani, V., Yin, X., Hassner, T., Liu, S., & Liu, X. (2022). Proactive Image Manipulation Detection. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 15386-15395).
