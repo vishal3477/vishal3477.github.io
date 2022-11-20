@@ -4,8 +4,6 @@ collection: publications
 permalink: /publication/paper3
 date: 2022-05-01
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition'
-paperurl: 'http://vishal3477.github.io/files/paper2.pdf'
-citation: 'Asnani, V., Yin, X., Hassner, T., & Liu, X. (2021). Reverse engineering of generative models: Inferring model hyperparameters from generated images. arXiv preprint arXiv:2106.07873.'
 ---
 
 [Paper](http://vishal3477.github.io/files/2.pdf)
