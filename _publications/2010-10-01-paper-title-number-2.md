@@ -1,7 +1,7 @@
 ---
 title:"Proactive Image Manipulation Detection"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-2
+permalink: /publication/2010-10-01-paper-title-number-2
 date: 2022-05-01
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition'
 paperurl: 'http://vishal3477.github.io/files/paper2.pdf'
