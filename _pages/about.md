@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,21 @@ redirect_from:
   - /about.html
 ---
 
-I am a graduate student pursuing PhD in Computer science and engineering department at Michigan State University. My interests lies in the field of Computer Vision and Deep learning. 
-I am currently working on reverse engineering of generative models to parse the training parameters of the model just using the output generated image.
-I am also working on the problem of Anti-deepfakes. Deepfake (Deep Learning + Fake) is a technique that can superimpose face images of a target person to a video or image of a source person to create a manipulated media form to perform analogous actions as the source. I am developing a deep learning model which would be able to detect deepfake images and video. 
+Welcome! Glad you found me. <br/>
 
+About me
+======
+I am a third-year Ph.D. student in the [Computer science and engineering department](http://www.cse.msu.edu/) at [Michigan State University](https://www.msu.edu/). My research interests lie in the field of Computer Vision, with particular interests in manipulation detection/localization, generative modeling, and image generation. I'm working under the guidance of [Dr. Xiaoming Liu](http://www.cse.msu.edu/~liuxm/index2.html) at [Computer Vision Lab (CVLAB)](http://cvlab.cse.msu.edu/). <br/>
+I received my Bachelor’s degree in Electrical and Instrumentation Engineering from [Birla Institute of Technology and Science](https://www.bits-pilani.ac.in/), Pilani, India, in 2019. 
+
+News
+======
+* [2022/10/25] &nbsp; Tech talk given at Scale AI. [Link](https://exchange.scale.com/home/videos/ai-deepfake-detection-proactive-image-manipulation-detection-research-collaboration-between-michigan-state-university-and-meta-2022-09-26)
+* [2022/10/03] &nbsp; One paper is accepted in CVPR 2022. [Link](https://vishal3477.github.io/publication/paper3)
+* [2022/07/27] &nbsp; In collaboration with Meta AI, our deepfake model parsing work is widely reported in [CNBC](https://www.cnbc.com/2021/06/16/facebook-scientists-say-they-can-tell-where-deepfakes-come-from.html), [CNET](https://www.cnet.com/news/privacy/facebook-steps-up-efforts-to-study-deepfakes/?PostType=link&ServiceType=twitter&TheTime=2021-06-16T16%3A03%3A06&UniqueID=5656784E-CEBC-11EB-BC13-31D94744363C&ftag=COS-05-10aaa0b), [Engadget](https://www.engadget.com/facebooks-latest-ai-detects-deep-fakes-and-knows-where-they-came-from-160012532.html), [Fortune](https://fortune.com/2021/06/16/facebook-detecting-deepfakes-research-michigan-state/), [The Mac Observer](https://www.macobserver.com/news/facebook-msu-deepfake-detection/), [MSU Today](https://msutoday.msu.edu/news/2021/deepfake-detection), [New Scientist](https://www.newscientist.com/article/2281198-facebook-ai-aims-to-identify-deepfake-images-and-trace-their-creators/), [SiliconAngle](https://siliconangle.com/2021/06/16/facebook-reverse-engineering-deepfakes-detect-ai-models-used-create/), [VentureBeat](https://venturebeat.com/business/facebooks-ai-reverse-engineers-models-used-to-generate-deepfakes/), [The Verge](https://www.theverge.com/2021/6/16/22534690/facebook-deepfake-detection-reverse-engineer-ai-model-hyperparameters), and [Wall Street Journal](https://www.wsj.com/articles/facebook-michigan-state-develop-deepfake-detection-technique-11623859200).
+
+Interests other than sitting in front of a laptop
+======
+I love going for long drives.<br/>
+While having small breaks from work, I like solving jigsaw puzzles or reading a book.<br/>
+Football, badminton, and table tennis are some of the outdoor sports I like. 
