@@ -27,7 +27,7 @@ I have collaborated with many experts in the computer vision field, namely [Dr. 
 
 Summer internship/collaboration opportunities
 ======
-I'm looking for internship and collaboration opportunities for summer 2023. If you want to discuss my research or any collaboration idea, I'm just an [email](asnanivi@msu.edu) away :). 
+I'm looking for internship and collaboration opportunities for summer 2023. If you want to discuss my research or any collaboration idea, I'm just an [email](mailto:asnanivi@msu.edu) away :). 
 
 Interests other than sitting in front of a laptop
 ======
