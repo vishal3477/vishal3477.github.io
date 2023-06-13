@@ -12,4 +12,4 @@ paperurl: 'http://vishal3477.github.io/files/Vishal_CV.pdf'
 
 [Here you go!!](http://vishal3477.github.io/files/Vishal_CV.pdf)
 
-I'm looking for internship opportunities for summer 2023. 
+I'm looking for internship opportunities for summer 2024. 
