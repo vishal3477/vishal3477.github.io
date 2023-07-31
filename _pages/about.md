@@ -17,6 +17,7 @@ I received my Bachelor’s degree in Electrical and Instrumentation Engineering 
 
 News
 ======
+* [2023/07/29] &nbsp; Our paper on reverse engineering of generative models (Model Parsing) is accepted to **Transactions on Pattern Analysis and Machine Intelligence**.
 * [2023/22/05] &nbsp; Started working as a Research Scientist intern for Adobe during the summer 2023.
 * [2023/02/03] &nbsp; Our paper on Proactive Manipulation Localization is accepted at CVPR 2023. [Link](https://vishal3477.github.io/publication/paper4)
 * [2023/26/01] &nbsp; Tech talk given in-person at Scale AI on Reverse Engineering of Generative Models. [Link](https://exchange.scale.com/public/videos/reverse-engineering-of-generative-models-2023-02-02)
