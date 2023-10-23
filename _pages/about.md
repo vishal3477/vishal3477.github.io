@@ -17,6 +17,7 @@ I received my Bachelor’s degree in Electrical and Instrumentation Engineering 
 
 News
 ======
+* [2023/09/22] &nbsp; PrObeD, a proactive scheme-based wrapper to improve the performance of 2D object detection for generic and camouflaged objects got accepted to Neurips 2023. 
 * [2023/07/29] &nbsp; Our paper on reverse engineering of generative models (Model Parsing) is accepted to **Transactions on Pattern Analysis and Machine Intelligence**.
 * [2023/22/05] &nbsp; Started working as a Research Scientist intern for Adobe during the summer 2023.
 * [2023/02/03] &nbsp; Our paper on Proactive Manipulation Localization is accepted at CVPR 2023. [Link](https://vishal3477.github.io/publication/paper4)
