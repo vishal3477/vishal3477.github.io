@@ -7,7 +7,6 @@ venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition'
 paperurl: ''
 citation: 'Asnani, V., Yin, X., Hassner, T., Liu, S., & Liu, X. (2022). Proactive Image Manipulation Detection. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition.'
 ---
-Accepted in **CVPR 2022**
 
 [Paper](http://vishal3477.github.io/files/2.pdf)
 [Supplementary](http://vishal3477.github.io/files/2_supp.pdf)
