@@ -1,7 +1,7 @@
 ---
 title: "Reverse Engineering of Deceptions"
 collection: publications
-permalink: /publication/paper2
+permalink: /publication/paper7
 date: 2023-12-03
 venue: 'Foundations and Trends in Privacy and Security'
 paperurl: ''
