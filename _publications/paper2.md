@@ -3,10 +3,10 @@ title: "Reverse Engineering of Generative Models: Inferring Model Hyperparameter
 collection: publications
 permalink: /publication/paper2
 date: 2022-05-01
+venue: 'IEEE Transactions on Pattern Analysis and Machine Intelligence'
 paperurl: ''
 citation: 'Asnani, V., Yin, X., Hassner, T., & Liu, X. (2023). Reverse engineering of generative models: Inferring model hyperparameters from generated images. Transactions on Pattern Analysis and Machine Intelligence, vol. 45, no. 12, pp. 15477-15493.'
 ---
-Accepted in IEEE Transactions on Pattern Analysis and Machine Intelligence
 
 [Paper](http://vishal3477.github.io/files/1.pdf)
 [Supplementary](http://vishal3477.github.io/files/1_supp.pdf)
