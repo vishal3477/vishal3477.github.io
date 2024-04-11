@@ -31,7 +31,7 @@ News
 
 Collaborators
 ======
-I have collaborated with many experts in the computer vision field, namely [Dr. Xiaoming Liu](http://www.cse.msu.edu/~liuxm/index2.html), [Dr. Tal Hassner](https://talhassner.github.io/home/), [Dr. John Collomosse](https://research.adobe.com/person/john-collomosse/), Dr. [Shruti Agarwal](https://agarwalshruti15.github.io/), [Dr. Xi Yin](https://xiyinmsu.github.io/) and [Dr. Sijia Liu](https://lsjxjtu.github.io/). I'm thankful for all the suggestions provided by everyone mentioned above. 
+I have collaborated with many experts in the computer vision field, namely [Dr. Xiaoming Liu](http://www.cse.msu.edu/~liuxm/index2.html), [Dr. Tal Hassner](https://talhassner.github.io/home/), [Dr. John Collomosse](https://research.adobe.com/person/john-collomosse/), [Dr. Shruti Agarwal](https://agarwalshruti15.github.io/), [Dr. Xi Yin](https://xiyinmsu.github.io/) and [Dr. Sijia Liu](https://lsjxjtu.github.io/). I'm thankful for all the suggestions provided by everyone mentioned above. 
 
 Summer internship/collaboration opportunities
 ======
