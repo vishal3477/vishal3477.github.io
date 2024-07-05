@@ -16,7 +16,7 @@ I am a fourh-year Ph.D. student in the [Computer science and engineering departm
 I received my Bachelor’s degree in Electrical and Instrumentation Engineering from [Birla Institute of Technology and Science](https://www.bits-pilani.ac.in/), Pilani, India, in 2019. In summer 2023, I was a research scientist intern at Adobe, where I, along with [Dr. John Collomosse](https://research.adobe.com/person/john-collomosse/) and [Dr. Shruti Agarwal](https://agarwalshruti15.github.io/) worked on developing a proactive-based scheme for synthetic media provenance identifying which training images are most responsible for a Generative AI image. <br/>
 I would be returning to Adobe in summer 2024 as a research scientist intern, focusing on media provenance! Delving into the realm of digital trust and authenticity, I'll be working on project aimed at ensuring the integrity and credibility of digital media under [Dr. John Collomosse](https://research.adobe.com/person/john-collomosse/) and [Dr. Shruti Agarwal](https://agarwalshruti15.github.io/). 
 
-Summer internship/collaboration opportunities
+Full-time opportunities
 ======
 I'm looking for full time opportunities, preferrably in the areas of Responsible AI, media provenance, deepfake detection, etc. If you want to discuss my research or any collaboration idea, I'm just an [email](mailto:asnanivi@msu.edu) away :). 
 
