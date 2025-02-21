@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Vishal Asnani"
-  avatar           : "headshot.jpeg"
+  avatar           : "https://vishal3477.github.io/images/headshot.jpeg"
   bio              : "Research Scientist at Adobe"
   location         : 
   employer         :
