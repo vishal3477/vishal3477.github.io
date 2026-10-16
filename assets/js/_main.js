@@ -3,6 +3,28 @@
    ========================================================================== */
 
 $(document).ready(function(){
+  var newsItems = $("#research-news > li"),
+    newsButton = $("#news-show-more"),
+    newsStatus = $("#news-status"),
+    visibleNews = Math.min(5, newsItems.length);
+
+  if (newsItems.length) {
+    newsItems.slice(visibleNews).prop("hidden", true);
+    newsButton.prop("hidden", visibleNews === newsItems.length);
+    newsStatus.text("Showing " + visibleNews + " of " + newsItems.length + " news items.");
+
+    newsButton.on("click", function() {
+      var firstNewItem = visibleNews;
+      newsItems.slice(visibleNews, visibleNews + 5).prop("hidden", false);
+      visibleNews = Math.min(visibleNews + 5, newsItems.length);
+      newsStatus.text("Showing " + visibleNews + " of " + newsItems.length + " news items.");
+      if (visibleNews === newsItems.length) {
+        newsButton.prop("hidden", true);
+        newsItems.eq(firstNewItem).attr("tabindex", "-1").focus();
+      }
+    });
+  }
+
    // Sticky footer
   var bumpIt = function() {
       $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
@@ -37,10 +59,12 @@ $(document).ready(function(){
       Stickyfill.rebuild();
       Stickyfill.init();
       $(".author__urls").show();
+      $(".author__urls-wrapper button").attr("aria-expanded", "true");
     } else {
       // unfix
       Stickyfill.stop();
       $(".author__urls").hide();
+      $(".author__urls-wrapper button").removeClass("open").attr("aria-expanded", "false");
     }
   };
 
@@ -55,10 +79,14 @@ $(document).ready(function(){
   $(".author__urls-wrapper button").on("click", function() {
     $(".author__urls").fadeToggle("fast", function() {});
     $(".author__urls-wrapper button").toggleClass("open");
+    $(this).attr("aria-expanded", $(this).hasClass("open"));
   });
 
   // init smooth scroll
-  $("a").smoothScroll({offset: -20});
+  $("a").not(".skip-to-content").smoothScroll({offset: -20});
+  $(".skip-to-content").on("click", function() {
+    $(this.hash).attr("tabindex", "-1").focus();
+  });
 
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");

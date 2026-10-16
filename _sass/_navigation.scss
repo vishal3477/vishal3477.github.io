@@ -177,6 +177,22 @@
   min-width: 250px;
   background: $background-color;
 
+  a[aria-current="page"] {
+    color: #235f63;
+    font-weight: 700;
+
+    &:before {
+      background: #247b80;
+      transform: scaleX(1);
+    }
+  }
+
+  a:focus-visible,
+  button:focus-visible {
+    outline: 2px solid #247b80;
+    outline-offset: 3px;
+  }
+
   a {
     display: block;
     margin: 0 1rem;

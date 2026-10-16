@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="240" viewBox="0 0 720 240" role="img" aria-labelledby="title desc">
+  <title id="title">Watermarking research overview</title>
+  <desc id="desc">Image, video, and audio media connect to an embedded signal and provenance verification.</desc>
+  <rect width="720" height="240" rx="16" fill="#f0f7f6"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g fill="#fff" stroke="#bed6d3" stroke-width="2">
+      <rect x="24" y="45" width="186" height="148" rx="12"/>
+      <rect x="267" y="45" width="186" height="148" rx="12"/>
+      <rect x="510" y="45" width="186" height="148" rx="12"/>
+    </g>
+    <g stroke="#247b80" stroke-width="3" fill="none">
+      <path d="M224 120h27m-8-7 8 7-8 7M467 120h27m-8-7 8 7-8 7"/>
+      <rect x="89" y="72" width="56" height="42" rx="5"/>
+      <path d="m94 105 12-14 12 10 10-17 12 21M331 94l8-10 8 20 8-30 8 40 8-25 8 5M582 88l21-9 21 9v20c0 15-21 25-21 25s-21-10-21-25z"/>
+      <path d="m593 104 7 7 13-17"/>
+    </g>
+    <g fill="#24343b" font-size="17" font-weight="700">
+      <text x="117" y="150">Digital media</text>
+      <text x="360" y="150">Watermark signal</text>
+      <text x="603" y="150">Verification</text>
+    </g>
+    <g fill="#53636a" font-size="13">
+      <text x="117" y="173">Image / video / audio</text>
+      <text x="360" y="173">Traceable information</text>
+      <text x="603" y="173">Content provenance</text>
+    </g>
+  </g>
+</svg>

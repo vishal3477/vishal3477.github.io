@@ -49,6 +49,47 @@
   }
 }
 
+.sidebar {
+  .author__avatar img {
+    border: 3px solid #eaf4f2;
+  }
+
+  .author__name {
+    color: #24343b;
+  }
+
+  .author__focus {
+    margin: 0.8em 0 1.2em;
+    color: #235f63;
+    font-size: 0.7em;
+    line-height: 1.7;
+  }
+
+  .author__urls a {
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    border-radius: 4px;
+
+    &:hover {
+      color: #235f63;
+      background: #f3f9f8;
+    }
+  }
+
+  a:focus-visible,
+  button:focus-visible {
+    outline: 2px solid #247b80;
+    outline-offset: 3px;
+  }
+
+  @media (max-width: 1023px) {
+    .author__focus {
+      max-width: 17em;
+      margin-bottom: 0;
+    }
+  }
+}
+
 .sidebar__right {
   margin-bottom: 1em;
 

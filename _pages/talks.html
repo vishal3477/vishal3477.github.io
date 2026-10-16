@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks & Tutorials"
 permalink: /talks/
 author_profile: true
 ---
@@ -11,6 +11,11 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+<p>Sharing research on watermarking, media forensics, and trustworthy AI through tutorials and research talks.</p>
+
+<div class="publication-list">
+{% assign talks = site.talks | sort: 'date' %}
+{% for post in talks reversed %}
+  {% include talk-card.html %}
 {% endfor %}
+</div>

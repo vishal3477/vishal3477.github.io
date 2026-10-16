@@ -1,0 +1,2 @@
+{% assign paper_authors = include.authors | split: ', ' %}
+{% for paper_author in paper_authors %}{% if paper_author == site.author.name %}<strong class="paper-author-self">{{ paper_author | escape }}</strong>{% else %}{{ paper_author | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}

@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<div id="main" role="main">
+  {% include sidebar.html %}
+  <article class="page paper-detail" aria-labelledby="paper-title">
+    <div class="page__inner-wrap">
+      <header class="paper-detail__header">
+        <p class="paper-detail__eyebrow">Research / {{ page.date | date: "%Y" }}</p>
+        <h1 id="paper-title" class="page__title">{{ page.title }}</h1>
+        <p class="paper-detail__authors">{% include author-line.html authors=page.authors %}</p>
+        <p class="paper-detail__venue">{% if page.status == 'preprint' %}Preprint, {{ page.date | date: "%Y" }}{% elsif page.status == 'accepted' %}Accepted to <i>{{ page.venue }}</i>{% else %}Published in <i>{{ page.venue }}</i>, {{ page.date | date: "%Y" }}{% endif %}</p>
+        <div class="publication-card__links">
+          {% if page.paperurl and page.paperurl != '' %}
+            {% if page.paperurl contains '://' %}{% assign paper_url = page.paperurl %}{% else %}{% assign paper_url = page.paperurl | relative_url %}{% endif %}
+            <a href="{{ paper_url }}">{{ page.paper_label | default: 'Read paper' }}</a>
+          {% endif %}
+          {% if page.codeurl %}<a href="{{ page.codeurl }}">Code repository</a>{% endif %}
+          <a href="{{ '/publications/' | relative_url }}">All publications</a>
+        </div>
+      </header>
+      {% if page.paper_figure %}
+        <figure class="paper-detail__figure paper-detail__figure--paper">
+          <a href="{{ page.paper_figure.image | relative_url }}" aria-label="Enlarge the figure from {{ page.title | escape }}">
+            <img src="{{ page.paper_figure.image | relative_url }}" alt="{{ page.paper_figure.alt | escape }}" width="{{ page.paper_figure.width }}" height="{{ page.paper_figure.height }}">
+          </a>
+          <figcaption>{{ page.paper_figure.caption | escape }} <a href="{{ page.paper_figure.source }}">{{ page.paper_figure.credit | escape }}</a>. Select the figure to enlarge it.</figcaption>
+        </figure>
+      {% elsif page.research_image %}
+        <figure class="paper-detail__figure">
+          <img src="{{ page.research_image | relative_url }}" alt="Illustrative workflow for {{ page.research_area | escape }}" width="720" height="240">
+          <figcaption>Research-area overview; an illustration, not an experimental result or a figure from the paper.</figcaption>
+        </figure>
+      {% endif %}
+      <section class="page__content">
+        <h2>Overview</h2>
+        {{ content }}
+      </section>
+      {% if page.citation %}
+        <details class="paper-detail__reference">
+          <summary>Bibliographic reference</summary>
+          <p>{{ page.citation | escape }}</p>
+        </details>
+      {% endif %}
+    </div>
+  </article>
+</div>

@@ -10,10 +10,10 @@ locale                   : "en-US"
 title                    : "Vishal Asnani"
 title_separator          : "-"
 name                     : &name "Vishal Asnani"
-description              : &description "Ph.D."
+description              : &description "Research Scientist at Adobe working on trustworthy AI, image/video/audio watermarking, media provenance, and generative AI attribution."
 url                      : https://vishal3477.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "vishal4477/vishal3477.github.io"
+repository               : "vishal3477/vishal3477.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -81,13 +81,14 @@ analytics:
 # Site Author
 author:
   name             : "Vishal Asnani"
-  avatar           : "https://vishal3477.github.io/images/headshot.jpeg"
+  avatar           : "headshot.jpeg"
   bio              : "Research Scientist at Adobe"
-  location         : 
-  employer         :
+  focus            : "Trustworthy AI · Watermarking · Media provenance"
+  location         : "San Jose, CA"
+  employer         : "Adobe Research"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=OA4lkcwAAAAJ"
-  email            : "asnanivi@msu.edu"
+  email            : "vishal.8.asnani@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,7 +103,7 @@ author:
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/vishal-asnani/"
+  linkedin         : "vishal-asnani"
   orcid            : 
   pinterest        :
   soundcloud       :
@@ -223,7 +224,7 @@ defaults:
       path: ""
       type: publications
     values:
-      layout: single
+      layout: publication
       author_profile: true
       share: true
       comments: true
@@ -247,6 +248,7 @@ defaults:
 
 # Sass/SCSS
 sass:
+  add_charset: true
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 

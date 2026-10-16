@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vishal Asnani | Research Scientist Resume</title>
+  <style>
+    @page { size: Letter; margin: 0.55in 0.65in; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: #20252c; background: #eceff2; font-family: Arial, Helvetica, sans-serif; font-size: 9.5pt; line-height: 1.22; }
+    .page { width: 8.5in; min-height: 11in; margin: 20px auto; padding: 0.55in 0.65in; background: white; }
+    h1 { margin: 0 0 3px; font-size: 23pt; letter-spacing: 0.2px; }
+    .focus { margin: 0 0 5px; font-size: 11pt; font-weight: bold; color: #234865; }
+    .contact { margin: 0; font-size: 9pt; }
+    a { color: #234865; text-decoration: none; }
+    h2 { margin: 10px 0 5px; padding-bottom: 3px; border-bottom: 1px solid #8293a0; color: #234865; font-size: 10.5pt; text-transform: uppercase; letter-spacing: 0.5px; }
+    h3 { margin: 7px 0 2px; font-size: 10pt; }
+    p { margin: 0 0 5px; }
+    ul { margin: 4px 0 7px; padding-left: 16px; }
+    li { margin-bottom: 3px; }
+    .meta { color: #4b535b; font-size: 9pt; margin-bottom: 3px; }
+    .date { font-weight: normal; }
+    .skills p { margin-bottom: 3px; }
+    .publications { padding-left: 19px; margin: 6px 0; }
+    .publications li { margin-bottom: 7px; }
+    .note { color: #4b535b; font-size: 9pt; }
+    .continued { font-size: 10pt; color: #4b535b; margin-bottom: 9px; }
+    @media print {
+      body { background: white; }
+      .page { width: auto; min-height: 0; margin: 0; padding: 0; }
+      .page + .page { break-before: page; }
+      h2, h3 { break-after: avoid; }
+      li, .education-entry { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="page">
+      <header>
+        <h1>Vishal Asnani</h1>
+        <p class="focus">Research Scientist | AI Safety, Media Forensics &amp; Content Authenticity</p>
+        <p class="contact">San Jose, CA | <a href="mailto:vishal.8.asnani@gmail.com">vishal.8.asnani@gmail.com</a><br>
+          <a href="https://vishal3477.github.io">vishal3477.github.io</a> |
+          <a href="https://scholar.google.com/citations?user=OA4lkcwAAAAJ">Google Scholar</a></p>
+      </header>
+
+      <section>
+        <h2>Research Profile</h2>
+        <p>Research Scientist at Adobe with a Ph.D. in Computer Science and Engineering, specializing in trustworthy generative AI, media provenance, and proactive image forensics. Develops watermarking and attribution methods to trace creative influences in generated content and detect image manipulation. Research spans diffusion models, model reverse engineering, and video watermarking, with publications at CVPR, ICCV, NeurIPS, TPAMI, and IJCV.</p>
+      </section>
+
+      <section class="skills">
+        <h2>Research &amp; Technical Expertise</h2>
+        <p><strong>Research:</strong> Generative AI attribution; image, video, and audio watermarking; deepfake detection; manipulation localization; diffusion-model customization; robustness evaluation; C2PA and Content Credentials.</p>
+        <p><strong>Methods:</strong> Proactive learning, textual inversion, token embeddings, encoder-decoder architectures, vision-language models, low-rank adaptation (LoRA).</p>
+        <p><strong>Implementation:</strong> Python, PyTorch, PyTorch Lightning, TensorFlow, NumPy, scikit-learn, OpenCV, CUDA, C/C++, SQL; AWS and Google Cloud Storage.</p>
+      </section>
+
+      <section>
+        <h2>Research Experience</h2>
+        <h3>Adobe Research | Research Scientist <span class="date">| Jan. 2025 - Present</span></h3>
+        <p class="meta">Trusted Media Intelligence Lab, San Jose, CA</p>
+        <ul>
+          <li>Research content authenticity and responsible AI through video and audio watermarking, generative-content attribution, and durable video Content Credentials; contribute to Adobe's Content Authenticity Initiative.</li>
+          <li>Mentored research interns on <strong>TokenTrace (CVPR 2026)</strong>, tracing multiple creative concepts within a generated image through watermarked token recovery.</li>
+          <li>Co-developed object-level watermarking for text-to-image diffusion models by fine-tuning a single token embedding; achieved <strong>99% bit accuracy for 48-bit watermarks</strong> (ICCV 2025).</li>
+          <li>Co-developed <strong>NRGMark (WACV 2026)</strong>, embedding independent energy-use and provenance metadata in distinct regions of composite images, with C2PA interoperability.</li>
+          <li>Co-authored <strong>FlowMark</strong>, mask-guided video watermarking (2026 preprint), and <strong>Signpost Watermarking</strong>, joint optimization for visual watermark coexistence (accepted to ECCV 2026 LifegenIP Workshop).</li>
+        </ul>
+
+        <h3>Adobe Research | Research Scientist Intern</h3>
+        <p class="meta">Trusted Media Intelligence Lab | May - Nov. 2024; May - Nov. 2023</p>
+        <ul>
+          <li>Developed <strong>CustomMark (ICCV 2025 APAI Workshop)</strong>, combining concept-specific watermarks with attention-weight fine-tuning for attribution without retraining the full diffusion model.</li>
+          <li>Developed <strong>ProMark (CVPR 2024)</strong>, supporting up to <strong>65,536 unique imperceptible watermarks</strong> in training data for causal attribution of generated images to source concepts.</li>
+        </ul>
+
+        <h3>Michigan State University | Doctoral Research <span class="date">| Aug. 2020 - Dec. 2024</span></h3>
+        <p class="meta">Advisor: Prof. Xiaoming Liu | Research collaborations with Meta AI and DEVCOM Army Research</p>
+        <ul>
+          <li>Developed <strong>MaLP (CVPR 2023)</strong>, a proactive image-manipulation localization method using local and global features; evaluated across <strong>22 generative models</strong>.</li>
+          <li>Developed proactive image-manipulation detection using learnable templates, with near-perfect average precision on unseen generative models (CVPR 2022).</li>
+          <li>Formulated model parsing to infer architecture and loss-function attributes from generated images; assembled <strong>116,000 images from 116 generative models</strong> (TPAMI 2023).</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <div class="education-entry">
+          <p><strong>Ph.D., Computer Science and Engineering</strong> | Michigan State University | Dec. 2024<br>
+            <span class="note">Dissertation: <em>Proactive Schemes: Adversarial Attacks for Social Good</em></span></p>
+        </div>
+        <div class="education-entry">
+          <p><strong>B.E. (Hons.), Electronics and Instrumentation Engineering</strong> | BITS Pilani | May 2019</p>
+        </div>
+      </section>
+    </div>
+
+    <div class="page">
+      <p class="continued"><strong>Vishal Asnani</strong> | Research Scientist | Selected Research &amp; Professional Service</p>
+
+      <section>
+        <h2>Selected Publications</h2>
+        <p class="note">Selected authorship shown below; complete publication list available on Google Scholar.</p>
+        <ol class="publications">
+          <li><strong>TokenTrace: Multi-Concept Attribution through Watermarked Token Recovery.</strong><br>
+            L. Zhang, S. Agarwal, J. Collomosse, P. Xie, <strong>V. Asnani</strong>. <em>CVPR, 2026.</em></li>
+          <li><strong>NRGMark: Localized Watermarking for Energy Transparency in Images.</strong><br>
+            S. Agarwal, E. Michel, <strong>V. Asnani</strong>, T. Mathern, J. Collomosse. <em>WACV, 2026.</em></li>
+          <li><strong>Proactive Schemes: A Survey of Adversarial Attacks for Social Good.</strong><br>
+            <strong>V. Asnani</strong>, X. Yin, X. Liu. <em>IJCV, 2026.</em></li>
+          <li><strong>CustomMark: Customization of Diffusion Models for Proactive Attribution.</strong><br>
+            <strong>V. Asnani</strong>, J. Collomosse, X. Liu, S. Agarwal. <em>ICCV APAI Workshop, 2025.</em></li>
+          <li><strong>Your Text Encoder Can Be An Object-Level Watermarking Controller.</strong><br>
+            N. K. Devulapally, M. Huang, <strong>V. Asnani</strong>, S. Agarwal, S. Lyu, V. S. Lokhande. <em>ICCV, 2025.</em></li>
+          <li><strong>ProMark: Proactive Diffusion Watermarking for Causal Attribution.</strong><br>
+            <strong>V. Asnani</strong>, J. Collomosse, T. Bui, X. Liu, S. Agarwal. <em>CVPR, 2024.</em></li>
+          <li><strong>Reverse Engineering of Generative Models: Inferring Model Hyperparameters from Generated Images.</strong><br>
+            <strong>V. Asnani</strong>, X. Yin, T. Hassner, X. Liu. <em>IEEE TPAMI, 2023.</em></li>
+          <li><strong>MaLP: Manipulation Localization Using a Proactive Scheme.</strong><br>
+            <strong>V. Asnani</strong>, X. Yin, T. Hassner, X. Liu. <em>CVPR, 2023.</em></li>
+          <li><strong>Proactive Image Manipulation Detection.</strong><br>
+            <strong>V. Asnani</strong>, X. Yin, T. Hassner, S. Liu, X. Liu. <em>CVPR, 2022.</em></li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Additional Work: Accepted &amp; Preprints</h2>
+        <ul>
+          <li><strong>FlowMark: Mask-Guided Video Watermarking.</strong> V. Asnani, S. Agarwal, J. Collomosse. arXiv:2607.05261, 2026.</li>
+          <li><strong>Signpost Watermarking: Joint Optimization for Visual Watermark Coexistence.</strong> S. Agarwal, V. Asnani, J. Collomosse. Accepted to ECCV 2026 LifegenIP Workshop. arXiv:2608.10091.</li>
+          <li><strong>What Do Deepfake Benchmarks Measure? An Audit Using Frozen Self-Supervised Representations.</strong> S. Pagon, Y. Shen, V. Asnani, F. Liu. arXiv:2606.26384, 2026.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Research Leadership &amp; Professional Service</h2>
+        <ul>
+          <li><strong>CVPR 2026 tutorial co-organizer:</strong> <em>Foundations and Frontiers of Watermarking</em>, covering classical and neural watermarking, multimodal extensions, robustness benchmarks, and authenticity frameworks.</li>
+          <li><strong>CVPR 2023 tutorial co-organizer:</strong> <em>Reverse Engineering of Deceptions</em>, focused on adversarial machine learning and trustworthy computer vision.</li>
+          <li><strong>Peer review:</strong> Reviewed 50+ manuscripts across venues including TPAMI, CVPR, ICCV, ECCV, IJCV, ICLR, AAAI, ACM Multimedia, and WACV.</li>
+          <li><strong>Research communication:</strong> Presented research on generative-model reverse engineering and proactive image-manipulation detection at Scale AI.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Additional Research</h2>
+        <p>Developed PrObeD, a proactive object detection wrapper (NeurIPS 2023), and co-authored research on hyperparameter dependencies for model parsing (NeurIPS 2024).</p>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

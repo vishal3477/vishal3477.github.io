@@ -1,0 +1,26 @@
+<article class="publication-card" aria-labelledby="talk-{{ post.slug }}">
+  <div class="publication-card__meta">
+    {% if post.date_precision == 'year' %}
+      <time datetime="{{ post.date | date: '%Y' }}">{{ post.date | date: "%Y" }}</time>
+    {% else %}
+      <time datetime="{{ post.date | date: '%Y-%m' }}">{{ post.date | date: "%b %Y" }}</time>
+    {% endif %}
+    <span class="publication-card__status">{{ post.type }}</span>
+  </div>
+  <h2 class="archive__item-title" id="talk-{{ post.slug }}">
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </h2>
+  <p class="publication-card__venue">{{ post.venue }}{% if post.format %} · {{ post.format }}{% endif %}</p>
+  {% if post.summary %}
+    <p class="publication-card__summary">{{ post.summary }}</p>
+  {% endif %}
+  <div class="publication-card__links">
+    <a href="{{ post.url | relative_url }}" aria-label="Details for {{ post.title | escape }}">Details</a>
+    {% if post.eventurl %}
+      <a href="{{ post.eventurl }}" aria-label="{{ post.event_label | escape }}: {{ post.title | escape }}">{{ post.event_label }}</a>
+    {% endif %}
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl | relative_url }}" aria-label="Read the paper for {{ post.title | escape }}">Read paper</a>
+    {% endif %}
+  </div>
+</article>

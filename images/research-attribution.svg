@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="240" viewBox="0 0 720 240" role="img" aria-labelledby="title desc">
+  <title id="title">Generative attribution research overview</title>
+  <desc id="desc">Source concepts influence generated content, followed by attribution of those influences.</desc>
+  <rect width="720" height="240" rx="16" fill="#f0f7f6"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g fill="#fff" stroke="#bed6d3" stroke-width="2">
+      <rect x="24" y="45" width="186" height="148" rx="12"/>
+      <rect x="267" y="45" width="186" height="148" rx="12"/>
+      <rect x="510" y="45" width="186" height="148" rx="12"/>
+    </g>
+    <g stroke="#247b80" stroke-width="3" fill="none">
+      <path d="M224 120h27m-8-7 8 7-8 7M467 120h27m-8-7 8 7-8 7"/>
+      <circle cx="101" cy="92" r="15"/><rect x="120" y="82" width="25" height="25" rx="4"/>
+      <rect x="335" y="70" width="50" height="48" rx="6"/><path d="m341 109 13-16 11 10 12-20"/>
+      <circle cx="603" cy="94" r="22"/><path d="M603 72v44m-22-22h44"/>
+    </g>
+    <g fill="#24343b" font-size="17" font-weight="700">
+      <text x="117" y="150">Source concepts</text><text x="360" y="150">Generated content</text><text x="603" y="150">Attribution</text>
+    </g>
+    <g fill="#53636a" font-size="13">
+      <text x="117" y="173">Creative influences</text><text x="360" y="173">Generative AI</text><text x="603" y="173">Trace the influences</text>
+    </g>
+  </g>
+</svg>
