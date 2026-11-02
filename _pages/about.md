@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-excerpt: "Research Scientist at Adobe working on trustworthy AI, watermarking, and media provenance."
+excerpt: "Research Scientist at Adobe Research working on video and audio watermarking, content authenticity, and media provenance."
 author_profile: true
 selected_work:
   - name: FlowMark
@@ -65,15 +65,24 @@ redirect_from:
   <h1 class="research-intro__headline">Building trust<br>in this <span>AI-generated era.</span></h1>
 </div>
 
-I'm a **Research Scientist at Adobe Research** in San Jose. I work on **video and audio watermarking**, image provenance, and generative AI attribution: methods that help answer where content came from, what influenced its creation, and whether it has been manipulated. My research connects content authenticity and responsible AI with practical safeguards for digital media, including durable Content Credentials for video.
+I'm a **Research Scientist at Adobe Research** in San Jose, working on **trustworthy generative AI and content authenticity**. My current work focuses on **video and audio watermarking**: building durable provenance signals that help verify digital content and preserve authenticity information as media is edited and shared.
 
-I earned my **Ph.D. in Computer Science and Engineering at Michigan State University in December 2024**, advised by [Prof. Xiaoming Liu](https://www.cse.msu.edu/~liuxm/index2.html). Before joining Adobe full-time in January 2025, I interned at Adobe in 2023 and 2024, collaborating with [John Collomosse](https://research.adobe.com/person/john-collomosse/) and [Shruti Agarwal](https://agarwalshruti15.github.io/).
+At Adobe, I work on **video and audio watermarking**, with an emphasis on robustness and practical media provenance. My other research includes adaptable image watermarking, conditional-access watermarking, and concept-level attribution for generative models. I collaborate with [John Collomosse](https://research.adobe.com/person/john-collomosse/) and [Shruti Agarwal](https://agarwalshruti15.github.io/), and mentor research interns on trustworthy media. Before joining full-time in January 2025, I interned at Adobe in 2023 and 2024, developing the research behind ProMark and CustomMark.
+
+I earned my **Ph.D. in Computer Science and Engineering at Michigan State University**, advised by [Prof. Xiaoming Liu](https://www.cse.msu.edu/~liuxm/index2.html). My doctoral research established the foundations of my work in **proactive media forensics**: embedding purposeful signals before manipulation to support detection and localization, and reverse engineering generative models from their outputs. That research continues to inform my work on traceable and verifiable media at Adobe.
 
 [Publications]({{ '/publications/' | relative_url }}) · [CV]({{ '/cv/' | relative_url }}) · [Talks & tutorials]({{ '/talks/' | relative_url }}) · [Get in touch](mailto:vishal.8.asnani@gmail.com)
 
-## Recent news
+## Latest news
 
 <ol id="research-news" class="news-timeline" aria-label="Research news and milestones">
+  <li>
+    <time datetime="2026-11">Nov 2026</time>
+    <div>
+      <p>Our paper <strong>FiLM-CAM: Keyed Feature Modulation for Conditional-Access Watermarking</strong> has been <strong>accepted to the NeurIPS 2026 Main Track as a poster.</strong> Publication details will be shared soon.</p>
+      <p>Our paper <strong>Adaptable Watermarking: Transforming Image Watermarking Models via Lightweight Adapters</strong> has been <strong>accepted to WACV 2027.</strong> Publication details will be shared soon.</p>
+    </div>
+  </li>
   <li>
     <time datetime="2026-10">Oct 2026</time>
     <p><a href="{{ '/publication/signpost' | relative_url }}">Signpost Watermarking</a>, our work on joint optimization for visual watermark coexistence, was <strong>accepted to the ECCV 2026 LifegenIP Workshop.</strong></p>
@@ -183,14 +192,16 @@ I earned my **Ph.D. in Computer Science and Engineering at Michigan State Univer
   <span id="news-status" role="status" aria-live="polite"></span>
 </div>
 
-## Research areas
+## Research interests
+
+My current work at **Adobe Research** centers on **video and audio watermarking** for trustworthy media. My broader research interests build on my Ph.D. work in proactive manipulation detection, localization, and generative-model parsing.
 
 <div class="research-cards">
   <article class="research-card" aria-labelledby="watermarking-title">
     <p class="research-card__label">Content authenticity</p>
     <h3 id="watermarking-title">Signals that help media tell its story.</h3>
     <img class="research-card__visual" src="{{ '/images/research-watermarking.svg' | relative_url }}" alt="Watermarking overview: digital media, an embedded signal, and provenance verification." width="720" height="240" loading="lazy">
-    <p><strong>Video and audio watermarking</strong>, localized image metadata, and visual watermark coexistence for traceable media.</p>
+    <p><strong>Robust image, video, and audio watermarking</strong> for traceable media, including durable provenance signals, localized metadata, and visual watermark coexistence. My current interests also include <strong>lightweight watermarking adapters and conditional-access watermarking</strong>.</p>
     <ul class="research-card__links" aria-label="Watermarking papers">
       <li><a href="{{ '/publication/flowmark' | relative_url }}">FlowMark <span>Preprint</span></a></li>
       <li><a href="{{ '/publication/nrgmark' | relative_url }}">NRGMark <span>WACV 2026</span></a></li>
@@ -201,7 +212,7 @@ I earned my **Ph.D. in Computer Science and Engineering at Michigan State Univer
     <p class="research-card__label">Generative AI attribution</p>
     <h3 id="attribution-title">Tracing the ideas behind the image.</h3>
     <img class="research-card__visual" src="{{ '/images/research-attribution.svg' | relative_url }}" alt="Attribution overview: source concepts influence generated content, followed by tracing those influences." width="720" height="240" loading="lazy">
-    <p>Tracing creative influences through watermarked training data, diffusion-model customization, and token recovery.</p>
+    <p>At Adobe, I explore how to trace the creative influences behind generated images through <strong>watermarked training data, diffusion-model customization, and multi-concept token recovery</strong>.</p>
     <ul class="research-card__links" aria-label="Attribution papers">
       <li><a href="{{ '/publication/paper6' | relative_url }}">ProMark <span>CVPR 2024</span></a></li>
       <li><a href="{{ '/publication/custommark' | relative_url }}">CustomMark <span>ICCV 2025 APAI Workshop</span></a></li>
@@ -212,7 +223,7 @@ I earned my **Ph.D. in Computer Science and Engineering at Michigan State Univer
     <p class="research-card__label">Media forensics &amp; evaluation</p>
     <h3 id="forensics-title">Looking beyond what meets the eye.</h3>
     <img class="research-card__visual" src="{{ '/images/research-forensics.svg' | relative_url }}" alt="Forensics overview: media inputs, forensic analysis, and evaluation." width="720" height="240" loading="lazy">
-    <p>Localizing manipulation, inferring model properties, and testing what deepfake benchmarks really measure.</p>
+    <p>Building on my Ph.D. research in <strong>proactive manipulation detection, localization, and model parsing</strong>, I investigate how to verify manipulated media, infer properties of generative models, and test what deepfake benchmarks really measure.</p>
     <ul class="research-card__links" aria-label="Media forensics papers">
       <li><a href="{{ '/publication/paper3' | relative_url }}">Proactive detection <span>CVPR 2022</span></a></li>
       <li><a href="{{ '/publication/paper4' | relative_url }}">MaLP <span>CVPR 2023</span></a></li>
@@ -274,7 +285,7 @@ Four perspectives on trustworthy media: watermarking video, tracing creative inf
 
 I mentor research interns, co-organize tutorials, and review for venues including CVPR, ICCV, ECCV, TPAMI, IJCV, ICLR, AAAI, ACM Multimedia, and WACV. I also co-organized the CVPR 2023 tutorial *Reverse Engineering of Deceptions* and presented my research at Scale AI.
 
-I welcome collaborations on watermarking, content authenticity, responsible AI, media provenance, and deepfake detection. Reach me at [vishal.8.asnani@gmail.com](mailto:vishal.8.asnani@gmail.com).
+I welcome collaborations on video and audio watermarking, media provenance, content authenticity, generative AI attribution, and proactive media forensics. Reach me at [vishal.8.asnani@gmail.com](mailto:vishal.8.asnani@gmail.com).
 
 My collaborators have included Xiaoming Liu, Tal Hassner, John Collomosse, Shruti Agarwal, Xi Yin, and Sijia Liu.
 

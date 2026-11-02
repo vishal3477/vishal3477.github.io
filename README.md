@@ -12,6 +12,14 @@ Jekyll source for <https://vishal3477.github.io/>.
   retaining workshop distinctions.
   Keep the problem, approach, and significance summaries grounded in public work.
   News shows the latest five date groups, with five more revealed per click.
+  November 2026 news announces the FiLM-CAM acceptance at NeurIPS 2026
+  Main Track (poster) and Adaptable Watermarking acceptance at WACV 2027.
+  This is the site announcement month, not an asserted acceptance date.
+  Publication details and new publication pages are deferred until ready.
+  The biography and research interests lead with current Adobe work, followed
+  by its foundations in doctoral research.
+  Describe the current Adobe focus as work on video and audio watermarking;
+  distinguish it from broader interests in image watermarking and attribution.
   The historical timeline extends back to the CVPR 2022 proactive detection
   acceptance and includes publications, acceptance announcements, talks,
   internships, and career milestones. Preserve month/year and chronological order.

@@ -22,7 +22,7 @@ redirect_from:
 
 ## Research focus
 
-Trustworthy generative AI; image, video, and audio watermarking; content authenticity; media provenance; causal attribution; manipulation detection and localization; model reverse engineering.
+At Adobe Research, I work on video and audio watermarking, with an emphasis on robustness, content authenticity, and durable media provenance. My other research includes adaptable image watermarking, conditional-access watermarking, and generative AI attribution, building on my doctoral work in proactive manipulation detection and localization, object detection, and generative-model reverse engineering.
 
 ## Experience
 
@@ -32,7 +32,7 @@ Trustworthy generative AI; image, video, and audio watermarking; content authent
     <div>
       <h3>Research Scientist</h3>
       <p class="cv-experience__org">Adobe Research · San Jose, CA</p>
-      <p>Content authenticity, responsible AI, and durable video Content Credentials, with current work on <strong>video and audio watermarking</strong>.</p>
+      <p>Current work on <strong>video and audio watermarking</strong>, with an emphasis on robustness, content authenticity, and durable media provenance.</p>
       <p>Mentored interns on TokenTrace (CVPR 2026); co-developed object-level watermarking (ICCV 2025) and NRGMark (WACV 2026).</p>
     </div>
   </li>
